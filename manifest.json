@@ -1,0 +1,23 @@
+{
+   "manifest_version": 2,
+   "name": "AntyProfanity",
+   "version": "1.0",
+   "permissions": [
+      "http://translate.yandex.net/*",
+      "contextMenus"
+   ],
+   "icons": {
+      "16": "img/logo.png",
+      "32": "img/logo1.png",
+      "48": "img/logo2.png",
+      "128": "img/logo3.png"
+   },
+   "browser_action": {
+      "default_title": "Open antyprofanity",
+      "default_icon": "img/logo.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "page": "background.html"
+   }
+}
