@@ -1,23 +1,54 @@
 {
-   "manifest_version": 2,
-   "name": "AntyProfanity",
-   "version": "1.0",
-   "permissions": [
-      "http://translate.yandex.net/*",
-      "contextMenus"
-   ],
-   "icons": {
-      "16": "img/logo.png",
-      "32": "img/logo1.png",
-      "48": "img/logo2.png",
-      "128": "img/logo3.png"
+   "background": {
+      "scripts": [
+         "js/Ban.js"
+      ]
    },
    "browser_action": {
-      "default_title": "Open antyprofanity",
-      "default_icon": "img/logo.png",
+      "default_icon": "img/128.png",
       "default_popup": "popup.html"
    },
-   "background": {
-      "page": "background.html"
-   }
+   "content_scripts": [
+      {
+         "all_frames": true,
+         "js": [
+            "js/Ban.js",
+            "js/DobBan.js",
+            "js/BanText.js",
+            "js/Mat.js",
+            "js/Hotfix.js",
+            "js/TablicaAntiMat.js",
+            "js/TablicaAntiMat2.js",
+            "js/AY.js",
+            "js/Installation.js",
+            "js/X0.js"
+         ],
+         "matches": [
+            "http://*/*",
+            "https://*/*"
+         ],
+         "run_at": "document_idle"
+      }
+   ],
+   "description": "Блокирует весь мат на просторах интернета.",
+   "icons": {
+      "16": "img/16.png",
+      "36": "img/36.png",
+      "48": "img/48.png",
+      "128": "img/128.png"
+   },
+   "manifest_version": 2,
+   "name": "AntiProfanity",
+   "options_page": "options.html",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html#optionsV2"
+   },
+   "permissions": [
+      "https://vk.com/*",
+      "storage"
+   ],
+   "short_name": "AntiProfanity",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.23.28"
 }
