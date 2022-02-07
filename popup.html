@@ -12,14 +12,32 @@
 <body>
    <header>
       <img id="logo" src="img/48.png">
+      <h1>AntiProfanity</h1>
+      <p>Обратная связь</p>
    </header>
 
+   <form class="form">
+      <input type="hidden" name="project_name" value="Бассейны-строй">
+      <input type="hidden" name="admin_email" value="vladik.2001bl@gmail.com">
+      <input type="hidden" name="form_subject" value="Заказчик">
+
+      <input class="form__input" type="text" name="name" placeholder="Имя">
+      <input class="form__input" type="tel" name="phone" placeholder="Телефон">
+      <input class="form__input" type="email" name="E-mail" placeholder="E-mail">
+      <textarea class="form__textarea" name="message" placeholder="Сообщение"></textarea>
+      <button class="form__button" id="submit" type="submit">Отправить</button>
+   </form>
+
    <div id="wrapper">
-      <h1>AntiProfanity</h1>
       <div class="footer">
-      <a href="doc.docx"><h2 class="dow">Скачать документацию</h2></a>
+         <a href="doc.docx">
+            <h2 class="dow">Скачать документацию</h2>
+         </a>
+      </div>
    </div>
-   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/script.js"></script>
 </body>
 
 </html>
