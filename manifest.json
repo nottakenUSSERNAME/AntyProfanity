@@ -15,13 +15,7 @@
             "js/Ban.js",
             "js/DobBan.js",
             "js/BanText.js",
-            "js/Mat.js",
-            "js/Hotfix.js",
-            "js/TablicaAntiMat.js",
-            "js/TablicaAntiMat2.js",
-            "js/AY.js",
-            "js/Installation.js",
-            "js/X0.js"
+            "js/Installation.js"
          ],
          "matches": [
             "http://*/*",

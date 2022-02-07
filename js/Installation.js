@@ -1,10 +1,6 @@
 ﻿walk(document.body);
 
 function walk(node) {
-
-
-
-
 	var child, next;
 
 	switch (node.nodeType) {
@@ -38,18 +34,18 @@ function makeItCultural(textNode) {
 
 	// Патч ( Обновление 1.22.12
 
-	text = text.replace(/❌ый/g, "❌");
-	text = text.replace(/❌ый/i, "❌");
-	text = text.replace(/❌ть/g, "❌");
-	text = text.replace(/❌ть/i, "❌");
-	text = text.replace(/❌й/g, "❌");
-	text = text.replace(/❌й/i, "❌");
-	text = text.replace(/❌я/g, "❌");
-	text = text.replace(/❌я/i, "❌");
-	text = text.replace(/❌ый/g, "❌");
-	text = text.replace(/❌ый/i, "❌");
-	text = text.replace(/❌ть/g, "❌");
-	text = text.replace(/❌ть/i, "❌");
+	text = text.replace(/❌ый/g, "плохое слово");
+	text = text.replace(/❌ый/i, "плохое слово");
+	text = text.replace(/❌ть/g, "плохое слово");
+	text = text.replace(/❌ть/i, "плохое слово");
+	text = text.replace(/❌й/g, "плохое слово");
+	text = text.replace(/❌й/i, "плохое слово");
+	text = text.replace(/❌я/g, "плохое слово");
+	text = text.replace(/❌я/i, "плохое слово");
+	text = text.replace(/❌ый/g, "плохое слово");
+	text = text.replace(/❌ый/i, "плохое слово");
+	text = text.replace(/❌ть/g, "плохое слово");
+	text = text.replace(/❌ть/i, "плохое слово");
 	text = text.replace(/❌ек/g, "❌");
 	text = text.replace(/❌ек/i, "❌");
 	text = text.replace(/❌уть/g, "❌");
@@ -122,33 +118,33 @@ function makeItCultural(textNode) {
 	text = text.replace(/Р❌/g, randomWord(["❌"]));
 	text = text.replace(/р❌/i, randomWord(["❌"]));
 	text = text.replace(/С❌/g, randomWord(["❌"]));
-	text = text.replace(/с❌/i, randomWord(["❌"]));
-	text = text.replace(/Т❌/g, randomWord(["❌"]));
-	text = text.replace(/т❌/i, randomWord(["❌"]));
-	text = text.replace(/У❌/g, randomWord(["❌"]));
-	text = text.replace(/у❌/i, randomWord(["❌"]));
-	text = text.replace(/Ф❌/g, randomWord(["❌"]));
-	text = text.replace(/Ф❌/i, randomWord(["❌"]));
-	text = text.replace(/Х❌/g, randomWord(["❌"]));
-	text = text.replace(/х❌/i, randomWord(["❌"]));
-	text = text.replace(/Ц❌/g, randomWord(["❌"]));
-	text = text.replace(/ц❌/i, randomWord(["❌"]));
-	text = text.replace(/Ч❌/g, randomWord(["❌"]));
-	text = text.replace(/ч❌/i, randomWord(["❌"]));
-	text = text.replace(/Ш❌/g, randomWord(["❌"]));
-	text = text.replace(/ш❌/i, randomWord(["❌"]));
-	text = text.replace(/Щ❌/g, randomWord(["❌"]));
-	text = text.replace(/щ❌/i, randomWord(["❌"]));
-	text = text.replace(/Ь❌/g, randomWord(["❌"]));
-	text = text.replace(/ь❌/i, randomWord(["❌"]));
-	text = text.replace(/Ъ❌/g, randomWord(["❌"]));
-	text = text.replace(/ъ❌/i, randomWord(["❌"]));
-	text = text.replace(/Э❌/g, randomWord(["❌"]));
-	text = text.replace(/э❌/i, randomWord(["❌"]));
-	text = text.replace(/Ю❌/g, randomWord(["❌"]));
-	text = text.replace(/ю❌/i, randomWord(["❌"]));
-	text = text.replace(/Я❌/g, randomWord(["❌"]));
-	text = text.replace(/я❌/i, randomWord(["❌"]));
+	text = text.replace(/с❌/i, randomWord(["плохое слово"]));
+	text = text.replace(/Т❌/g, randomWord(["плохое слово"]));
+	text = text.replace(/т❌/i, randomWord(["плохое слово"]));
+	text = text.replace(/У❌/g, randomWord(["плохое слово"]));
+	text = text.replace(/у❌/i, randomWord(["плохое слово"]));
+	text = text.replace(/Ф❌/g, randomWord(["плохое слово"]));
+	text = text.replace(/Ф❌/i, randomWord(["плохое слово"]));
+	text = text.replace(/Х❌/g, randomWord(["плохое слово"]));
+	text = text.replace(/хплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Цплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/цплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Чплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/чплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Шплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/шплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Щплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/щплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Ьплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/ьплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Ъплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/ъплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Эплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/эплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Юплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/юплохое слово/i, randomWord(["плохое слово"]));
+	text = text.replace(/Яплохое слово/g, randomWord(["плохое слово"]));
+	text = text.replace(/яплохое слово/i, randomWord(["плохое слово"]));
 
 	// Патч ) Обновление 1.22.12
 
@@ -158,4 +154,11 @@ function randomWord(words) {
 	return words[Math.floor(Math.random() * words.length)];
 }
 
-
+// manifest.json ->
+// "js/Mat.js",
+// "js/Hotfix.js",
+// "js/TablicaAntiMat.js",
+// "js/TablicaAntiMat2.js",
+// "js/X0.js"
+//"js/DobBan.js",
+// "js/Ban.js",
